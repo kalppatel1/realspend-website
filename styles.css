@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F6F6F1;
+}
+
+header {
+    background-color: #004846;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #F6F6F1;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    color: #004846;
+}
+
+.hero-image img {
+    width: 300px;
+}
+
+.about {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.signup {
+    padding: 50px 100px;
+    background-color: #F6F6F1;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.cta-button {
+    background-color: #00BC73;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #004846;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
