@@ -10,27 +10,7 @@
     <div class="w-social-media">
       <div class="div">
         <div class="overlap-group">
-          <div class="beta-list">
-            <div class="group">
-              <div class="frame">
-                <div class="frame-2">
-                  <div class="text-wrapper">Join our Beta Waitlist</div>
-                  <p class="p">Secure your spot and get early access to RealSpend</p>
-                </div>
-                <div class="frame-3">
-                  <div class="group-2">
-                    <div class="rectangle"></div>
-                    <div class="text-wrapper-2">Name</div>
-                  </div>
-                  <div class="group-2">
-                    <div class="rectangle"></div>
-                    <p class="email"><span class="span">Email</span> <span class="text-wrapper-3">*</span></p>
-                  </div>
-                </div>
-                <button class="buttons"><div class="submit">Submit</div></button>
-              </div>
-            </div>
-          </div>
+          <div id="beta-waitlist"></div>
           <div class="feature-highlight">
             <div class="frame-4">
               <p class="text-wrapper">Take Finance off Your Mind</p>
@@ -149,5 +129,16 @@
         </div>
       </div>
     </div>
+    <script type="module">
+      import React from 'react';
+      import ReactDOM from 'react-dom/client';
+      import BetaWaitlistForm from './components/BetaWaitlistForm';
+    
+      ReactDOM.createRoot(document.getElementById('beta-waitlist')).render(
+        <React.StrictMode>
+          <BetaWaitlistForm />
+        </React.StrictMode>
+      );
+    </script>
   </body>
 </html>

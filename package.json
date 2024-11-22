@@ -1,0 +1,14 @@
+{
+    "name": "realspend-website",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "mkdir -p build && cp -r index.html style.css globals.css styleguide.css components node_modules build/",
+      "test": "echo \"No tests specified\" && exit 0"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "@/components/ui": "latest",
+      "lucide-react": "0.263.1"
+    }
+  }
