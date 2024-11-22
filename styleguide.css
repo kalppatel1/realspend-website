@@ -1,0 +1,169 @@
+:root {
+  --dark-green: rgba(0, 72, 70, 1);
+  --light-green: rgba(0, 188, 115, 1);
+  --light-grey02: rgba(215, 215, 215, 1);
+  --black: rgba(0, 0, 0, 1);
+  --dark-grey: rgba(89, 89, 89, 1);
+  --medium-grey: rgba(170, 170, 170, 1);
+  --white: rgba(255, 255, 255, 1);
+  --light-yellow: rgba(244, 243, 237, 1);
+  --light-grey01: rgba(243, 243, 243, 1);
+  --heading-1-font-family: "STIX Two Text", Helvetica;
+  --heading-1-font-weight: 500;
+  --heading-1-font-size: 36px;
+  --heading-1-letter-spacing: 0px;
+  --heading-1-line-height: normal;
+  --heading-1-font-style: normal;
+  --heading-2-font-family: "Poppins", Helvetica;
+  --heading-2-font-weight: 600;
+  --heading-2-font-size: 24px;
+  --heading-2-letter-spacing: 0px;
+  --heading-2-line-height: normal;
+  --heading-2-font-style: normal;
+  --heading-3-font-family: "Poppins", Helvetica;
+  --heading-3-font-weight: 600;
+  --heading-3-font-size: 16px;
+  --heading-3-letter-spacing: 0px;
+  --heading-3-line-height: normal;
+  --heading-3-font-style: normal;
+  --heading-4-font-family: "Poppins", Helvetica;
+  --heading-4-font-weight: 600;
+  --heading-4-font-size: 14px;
+  --heading-4-letter-spacing: 0px;
+  --heading-4-line-height: normal;
+  --heading-4-font-style: normal;
+  --button-l-font-family: "Poppins", Helvetica;
+  --button-l-font-weight: 500;
+  --button-l-font-size: 20px;
+  --button-l-letter-spacing: 0px;
+  --button-l-line-height: normal;
+  --button-l-font-style: normal;
+  --button-s-font-family: "Poppins", Helvetica;
+  --button-s-font-weight: 400;
+  --button-s-font-size: 16px;
+  --button-s-letter-spacing: 0px;
+  --button-s-line-height: normal;
+  --button-s-font-style: normal;
+  --text-l-font-family: "Poppins", Helvetica;
+  --text-l-font-weight: 400;
+  --text-l-font-size: 20px;
+  --text-l-letter-spacing: 0px;
+  --text-l-line-height: normal;
+  --text-l-font-style: normal;
+  --text-m-font-family: "Poppins", Helvetica;
+  --text-m-font-weight: 400;
+  --text-m-font-size: 16px;
+  --text-m-letter-spacing: 0px;
+  --text-m-line-height: normal;
+  --text-m-font-style: normal;
+  --text-SM-font-family: "Poppins", Helvetica;
+  --text-SM-font-weight: 400;
+  --text-SM-font-size: 14px;
+  --text-SM-letter-spacing: 0px;
+  --text-SM-line-height: normal;
+  --text-SM-font-style: normal;
+  --text-s-font-family: "Poppins", Helvetica;
+  --text-s-font-weight: 400;
+  --text-s-font-size: 13px;
+  --text-s-letter-spacing: 0px;
+  --text-s-line-height: normal;
+  --text-s-font-style: normal;
+  --text-XL-font-family: "Poppins", Helvetica;
+  --text-XL-font-weight: 500;
+  --text-XL-font-size: 36px;
+  --text-XL-letter-spacing: 0px;
+  --text-XL-line-height: normal;
+  --text-XL-font-style: normal;
+  --light-shadow: 2px 2px 16px 4px rgba(203, 203, 203, 0.25);
+  --module-shadow: 2px 2px 8px 2px rgba(203, 203, 203, 0.25);
+  --dark-mode-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  --variable-collection-medium-grey: rgba(170, 170, 170, 1);
+  --variable-collection-color: var(--variable-collection-medium-grey);
+  --variable-collection-light-yellow: rgba(241, 238, 220, 1);
+  --system-colors-colors-blue: rgba(0, 122, 255, 1);
+  --system-colors-colors-white: rgba(255, 255, 255, 1);
+  --system-colors-colors-black: rgba(0, 0, 0, 1);
+  --system-colors-colors-light-grey-02: rgba(215, 215, 215, 1);
+  --system-colors-colors-light-khaki: rgba(254, 253, 251, 1);
+  --system-colors-colors-dark-green: rgba(0, 72, 70, 1);
+  --system-colors-colors-dark-khaki: rgba(241, 238, 220, 1);
+  --system-colors-colors-system-grey: rgba(179, 179, 179, 1);
+  --system-colors-colors-system-grey-2: rgba(222, 222, 222, 1);
+  --system-colors-colors-medium-grey: rgba(170, 170, 170, 1);
+  --system-colors-colors-dark-grey: rgba(89, 89, 89, 1);
+  --system-colors-colors-overlay: rgba(0, 0, 0, 0.2);
+  --system-colors-fills-tertiary: rgba(120, 120, 128, 0.12);
+  --system-colors-grays-white: rgba(255, 255, 255, 1);
+  --system-colors-labels-tertiary: rgba(60, 60, 67, 0.3);
+  --system-colors-miscellaneous-button-disabeld-BG: rgba(255, 255, 255, 0.12);
+  --system-colors-miscellaneous-button-bezeled-fill: rgba(0, 122, 255, 0.15);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-system-colors-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-system-colors-mode="light"] {
+  --system-colors-colors-blue: rgba(0, 122, 255, 1);
+  --system-colors-colors-white: rgba(255, 255, 255, 1);
+  --system-colors-colors-black: rgba(0, 0, 0, 1);
+  --system-colors-colors-light-grey-02: rgba(215, 215, 215, 1);
+  --system-colors-colors-light-khaki: rgba(254, 253, 251, 1);
+  --system-colors-colors-dark-green: rgba(0, 72, 70, 1);
+  --system-colors-colors-dark-khaki: rgba(241, 238, 220, 1);
+  --system-colors-colors-system-grey: rgba(179, 179, 179, 1);
+  --system-colors-colors-system-grey-2: rgba(222, 222, 222, 1);
+  --system-colors-colors-medium-grey: rgba(170, 170, 170, 1);
+  --system-colors-colors-dark-grey: rgba(89, 89, 89, 1);
+  --system-colors-colors-overlay: rgba(0, 0, 0, 0.2);
+  --system-colors-fills-tertiary: rgba(120, 120, 128, 0.12);
+  --system-colors-labels-tertiary: rgba(60, 60, 67, 0.3);
+  --system-colors-miscellaneous-button-disabeld-BG: rgba(255, 255, 255, 0.12);
+  --system-colors-miscellaneous-button-bezeled-fill: rgba(0, 122, 255, 0.15);
+}
+
+[data-system-colors-mode="dark"] {
+  --system-colors-colors-blue: rgba(10, 132, 255, 1);
+  --system-colors-colors-white: rgba(39, 39, 39, 1);
+  --system-colors-colors-black: rgba(255, 255, 255, 1);
+  --system-colors-colors-light-grey-02: rgba(255, 255, 255, 1);
+  --system-colors-colors-light-khaki: rgba(39, 39, 39, 1);
+  --system-colors-colors-dark-green: rgba(0, 188, 115, 1);
+  --system-colors-colors-dark-khaki: rgba(62, 61, 53, 1);
+  --system-colors-colors-system-grey: rgba(255, 255, 255, 1);
+  --system-colors-colors-system-grey-2: rgba(56, 56, 56, 1);
+  --system-colors-colors-medium-grey: rgba(113, 113, 113, 1);
+  --system-colors-colors-dark-grey: rgba(255, 255, 255, 1);
+  --system-colors-colors-overlay: rgba(0, 0, 0, 0.4);
+  --system-colors-fills-tertiary: rgba(120, 120, 128, 0.24);
+  --system-colors-labels-tertiary: rgba(235, 235, 245, 0.3);
+  --system-colors-miscellaneous-button-disabeld-BG: rgba(118, 118, 128, 0.24);
+  --system-colors-miscellaneous-button-bezeled-fill: rgba(10, 132, 255, 0.15);
+}
+
+[data-system-colors-mode="dark-elevated"] {
+  --system-colors-colors-blue: rgba(10, 132, 255, 1);
+  --system-colors-colors-white: rgba(255, 255, 255, 1);
+  --system-colors-colors-black: rgba(255, 255, 255, 1);
+  --system-colors-colors-light-grey-02: rgba(255, 255, 255, 1);
+  --system-colors-colors-light-khaki: rgba(255, 255, 255, 1);
+  --system-colors-colors-dark-green: rgba(255, 255, 255, 1);
+  --system-colors-colors-dark-khaki: rgba(255, 255, 255, 1);
+  --system-colors-colors-system-grey: rgba(255, 255, 255, 1);
+  --system-colors-colors-system-grey-2: rgba(255, 255, 255, 1);
+  --system-colors-colors-medium-grey: rgba(255, 255, 255, 1);
+  --system-colors-colors-dark-grey: rgba(255, 255, 255, 1);
+  --system-colors-colors-overlay: rgba(255, 255, 255, 1);
+  --system-colors-fills-tertiary: rgba(120, 120, 128, 0.24);
+  --system-colors-labels-tertiary: rgba(235, 235, 245, 0.3);
+  --system-colors-miscellaneous-button-disabeld-BG: rgba(118, 118, 128, 0.24);
+  --system-colors-miscellaneous-button-bezeled-fill: rgba(10, 132, 255, 0.15);
+}

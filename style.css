@@ -1,0 +1,566 @@
+.w-social-media {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.w-social-media .div {
+  background-color: #000000;
+  overflow: hidden;
+  width: 1440px;
+  height: 3404px;
+  position: relative;
+}
+
+.w-social-media .overlap-group {
+  width: 1441px;
+  height: 2576px;
+  top: 828px;
+  position: absolute;
+  left: 0;
+}
+
+.w-social-media .beta-list {
+  position: absolute;
+  width: 1440px;
+  height: 793px;
+  top: 0;
+  left: 0;
+  background-color: #020d0d;
+}
+
+.w-social-media .group {
+  position: relative;
+  width: 1120px;
+  height: 584px;
+  top: 112px;
+  left: 160px;
+}
+
+.w-social-media .frame {
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  align-items: center;
+  gap: 77px;
+  position: relative;
+}
+
+.w-social-media .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 625px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.w-social-media .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.w-social-media .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.w-social-media .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.w-social-media .group-2 {
+  position: relative;
+  width: 423px;
+  height: 108px;
+}
+
+.w-social-media .rectangle {
+  position: absolute;
+  width: 421px;
+  height: 64px;
+  top: 44px;
+  left: 0;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: var(--system-colors-colors-system-grey);
+}
+
+.w-social-media .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 174px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.w-social-media .email {
+  position: absolute;
+  top: 0;
+  left: 172px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.w-social-media .span {
+  color: #ffffff;
+}
+
+.w-social-media .text-wrapper-3 {
+  color: #fc0000;
+}
+
+.w-social-media .buttons {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px 15px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #00bc73;
+  border-radius: 10px;
+}
+
+.w-social-media .submit {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #e0e1e3;
+  font-size: 20px;
+  letter-spacing: -0.40px;
+  line-height: normal;
+}
+
+.w-social-media .feature-highlight {
+  position: absolute;
+  width: 1440px;
+  height: 1588px;
+  top: 756px;
+  left: 0;
+  background-color: #020d0d;
+}
+
+.w-social-media .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  align-items: flex-start;
+  gap: 76px;
+  position: relative;
+  top: 70px;
+  left: 160px;
+}
+
+.w-social-media .frame-5 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.w-social-media .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  height: 483px;
+  align-items: center;
+  justify-content: center;
+  gap: 41px;
+  padding: 47px 40px;
+  position: relative;
+  background-color: #333333;
+  border-radius: 20px;
+}
+
+.w-social-media .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.w-social-media .icon {
+  position: relative;
+  width: 69px;
+  height: 69px;
+}
+
+.w-social-media .frame-7 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 41px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.w-social-media .text-wrapper-4 {
+  position: relative;
+  width: 196px;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.w-social-media .text-wrapper-5 {
+  position: relative;
+  width: 278px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #8c8c8c;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.w-social-media .frame-8 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -11.00px;
+  margin-bottom: -11.00px;
+}
+
+.w-social-media .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  height: 483px;
+  align-items: center;
+  justify-content: center;
+  gap: 41px;
+  padding: 47px 40px;
+  position: relative;
+  margin-right: -4.00px;
+  background-color: #333333;
+  border-radius: 20px;
+}
+
+.w-social-media .frame-9 {
+  position: relative;
+  width: 278px;
+  height: 357px;
+}
+
+.w-social-media .img {
+  top: -27px;
+  left: 104px;
+  position: absolute;
+  width: 69px;
+  height: 69px;
+}
+
+.w-social-media .frame-10 {
+  top: 82px;
+  left: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 41px;
+  position: absolute;
+}
+
+.w-social-media .frame-11 {
+  position: relative;
+  width: 358px;
+  height: 483px;
+  background-color: #333333;
+  border-radius: 20px;
+}
+
+.w-social-media .icon-2 {
+  top: 36px;
+  left: 144px;
+  position: absolute;
+  width: 69px;
+  height: 69px;
+}
+
+.w-social-media .frame-12 {
+  top: 145px;
+  left: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 41px;
+  position: absolute;
+}
+
+.w-social-media .text-wrapper-6 {
+  position: relative;
+  width: 218px;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.w-social-media .frame-13 {
+  display: inline-flex;
+  height: 396px;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 532px;
+  position: absolute;
+  top: 2180px;
+  left: 0;
+  background-color: var(--system-colors-colors-dark-green);
+  overflow: hidden;
+}
+
+.w-social-media .frame-14 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  padding: 50px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -6.53px;
+  margin-bottom: -6.53px;
+}
+
+.w-social-media .logo-tagline {
+  position: relative;
+  width: 377px;
+  height: 101.55px;
+}
+
+.w-social-media .clip-path-group {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 13px;
+  left: 13px;
+}
+
+.w-social-media .vector {
+  position: absolute;
+  width: 101px;
+  height: 39px;
+  top: 13px;
+  left: 102px;
+}
+
+.w-social-media .vector-2 {
+  position: absolute;
+  width: 156px;
+  height: 50px;
+  top: 13px;
+  left: 208px;
+}
+
+.w-social-media .vector-3 {
+  position: absolute;
+  width: 265px;
+  height: 25px;
+  top: 68px;
+  left: 100px;
+}
+
+.w-social-media .frame-15 {
+  display: inline-flex;
+  align-items: center;
+  gap: 26px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.w-social-media .social-icons {
+  position: relative;
+  width: 36.51px;
+  height: 36.51px;
+}
+
+.w-social-media .group-3 {
+  position: relative;
+  width: 290px;
+  height: 59px;
+}
+
+.w-social-media .text-wrapper-7 {
+  position: absolute;
+  width: 167px;
+  top: 0;
+  left: 62px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.w-social-media .text-wrapper-8 {
+  position: absolute;
+  width: 286px;
+  top: 41px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #f5f7f9;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.w-social-media .overlap {
+  width: 1440px;
+  height: 828px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.w-social-media .hero-section {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 112px 140px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgb(2, 13, 13) 31%,
+    rgba(0, 112, 69, 0.16) 100%
+  );
+}
+
+.w-social-media .frame-16 {
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 133px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.w-social-media .frame-17 {
+  display: flex;
+  flex-direction: column;
+  width: 664px;
+  align-items: flex-start;
+  gap: 60px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.w-social-media .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--system-colors-colors-white);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 76px;
+}
+
+.w-social-media .get-for-free-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px 15px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #00bc73;
+  border-radius: 10px;
+}
+
+.w-social-media .get-for-free {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.40px;
+  line-height: normal;
+}
+
+.w-social-media .frame-18 {
+  position: absolute;
+  width: 723px;
+  height: 543px;
+  top: 31px;
+  left: 577px;
+}
+
+.w-social-media .frame-19 {
+  position: absolute;
+  width: 221px;
+  height: 42px;
+  top: 32px;
+  left: 610px;
+}
